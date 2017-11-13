@@ -29,7 +29,7 @@ const drivers=["Milo", "Otis", "Garfield"]
  }
 
  function removeLastDriver(name){
-   let removeDriver = drivers.slice(0,1);
+   let removeDriver = drivers.slice(0,2);
    return removeDriver
  }
  
