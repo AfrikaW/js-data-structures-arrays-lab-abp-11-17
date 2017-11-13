@@ -19,7 +19,5 @@ const drivers=["Milo", "Otis", "Garfield"]
   };
 
   function appendDriver(name) {
-    const appendDriver = [...drivers, 'name'];
+    const appendDriver = [...drivers, `name`];
   }
-
-  
