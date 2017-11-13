@@ -24,6 +24,6 @@ const drivers=["Milo", "Otis", "Garfield"]
   }
 
  function  prependDriver(name){
-    let prependDriver = [name, ...drivers]
+    let prependDriver = [name, ...drivers];
     return appendDriver
  }
