@@ -18,6 +18,6 @@ const drivers=["Milo", "Otis", "Garfield"]
     drivers.shift(name)
   };
 
-  function removeFirstDriver(name) {
+  function removeFirstDriver() {
     const driver = drivers.slice(1,2)
   };
