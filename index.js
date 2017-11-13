@@ -19,6 +19,5 @@ const drivers=["Milo", "Otis", "Garfield"]
   };
 
   function appendDriver(name) {
-    const drivers2 = [drivers.slice(0,1,2)...`${name}``]
+    const drivers2 = [drivers.slice(0,1,2)...`${name}`]
   };
-  
