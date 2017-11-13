@@ -34,6 +34,6 @@ const drivers=["Milo", "Otis", "Garfield"]
  }
 
  function removeFirstDriver(name){
-   let removeFdriver = drivers.slice(1,0);
+   let removeFdriver = drivers.slice(0);
    return removeFdriver
  }
