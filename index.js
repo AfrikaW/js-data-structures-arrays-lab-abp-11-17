@@ -19,6 +19,6 @@ const drivers=["Milo", "Otis", "Garfield"]
   };
 
   function appendDriver(name) {
-    const copyDrivers = drivers.slice();
-    copyDrivers.push(name);
+     drivers.slice();
+      drivers.push(name);
   };
