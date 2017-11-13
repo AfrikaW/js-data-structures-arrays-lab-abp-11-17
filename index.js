@@ -27,3 +27,9 @@ const drivers=["Milo", "Otis", "Garfield"]
     let prependDriver = [name, ... drivers];
     return prependDriver
  }
+
+ function removeLastDriver(name){
+   let removeLastDriver = drivers.slice(0,1);
+   return removeLastDriver
+ }
+ ]
